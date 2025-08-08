@@ -1,0 +1,5 @@
+premio_total = float(input("digite o valor total do premio: R$"))
+primeiro_vencedor = (46/100 * premio_total)
+segundo_vencedor = (32/100 * premio_total)
+terceiro_vencedor = (22/100 * premio_total)
+print("o primeiro ira ganhar" , primeiro_vencedor, "o segundo ira ganhar" , segundo_vencedor, "e o terceiro ira ganhar" , terceiro_vencedor)

@@ -1,0 +1,6 @@
+comprimento = float(input("digite o comprimento em metros da sala:"))
+largura = float(input("digite a largura em metros da sala:"))
+valor_carpete = float(input("digite o preço do metro do carpete: R$"))
+metros = (comprimento * largura)
+custo_total = (metros * valor_carpete)
+print("o custo total é:" , custo_total)
